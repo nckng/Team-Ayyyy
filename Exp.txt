@@ -1,0 +1,21 @@
+Sudo Code for Merge Sort
+
+
+
+
+Ans <= output array
+F <= first half
+S <= Second half
+
+i = 1
+j = 1
+
+for k=1 to length of array
+    if F[i] > S[j]
+        Ans[k] = S[j]
+        j++
+    else
+        Ans[k] = F[i]
+        i++
+
+
