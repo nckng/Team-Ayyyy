@@ -30,8 +30,8 @@ public class MergeSortTester
 
     public static long test(int a){
 	int[] s = new int[a];
-	for(; a>0; a--){
-	    s[a] = (int)(Math.random()*10000);
+	for(; a > 0; a--){
+	    s[a-1] = (int)(Math.random()*10000);
 	}
 	long st = System.nanoTime();
 	MergeSort.sort(s);
