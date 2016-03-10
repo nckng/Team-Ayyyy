@@ -18,7 +18,11 @@
   n=1       time: 
   n=10      time: 
   n=100     time: 
-  ...
+  n=1000    time: 
+  n=10000   time: 
+  n=100000
+  n=1000000
+  
   n=<huge>  time: 
 
   ANALYSIS:
@@ -49,7 +53,13 @@ public class MergeSortTester
 	System.out.println(test(1));
 	System.out.println(test(10));
 	System.out.println(test(100));
-	System.out.println(test(1000));
+	System.out.println(test(10000));
+	System.out.println(test(100000));
+	System.out.println(test(10000000));
+	System.out.println(test(100000000));
+	System.out.println(test(200000000));
+
+
     }//end main
 
 }//end class
